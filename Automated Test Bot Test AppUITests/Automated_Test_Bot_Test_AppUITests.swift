@@ -29,8 +29,8 @@ class Automated_Test_Bot_Test_AppUITests: XCTestCase {
     }
     
     func testExample() {
-        // Use recording to get started writing UI tests.
-        // Use XCTAssert and related functions to verify your tests produce the correct results.
+        XCUIApplication().otherElements.containing(.button, identifier:"Button").element.tap()
+        
     }
     
 }
